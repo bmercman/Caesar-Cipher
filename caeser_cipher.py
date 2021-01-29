@@ -1,4 +1,4 @@
-# Benjamin Mercier 100745885
+# Author - Benjamin Mercier
 
 ## Caesar Cipher
 
@@ -98,54 +98,3 @@ def Main():
     o.decrypt()
 
 Main()
-
-## bonus shit
-
-# def caser_cipher(self):
-#     asciiStr = []  # holds the ascii version of the letters in the message
-#     for x in self._message:  # converts letters to ascii
-#         asc = ord(x)
-#         asciiStr.append(asc)
-#
-#     encryptStr = []  # holds the encrypted ascii code
-#     for i in asciiStr:  # shifts ascii code over by 3 characters
-#         i += 3
-#         if 90 < i < 97:
-#             i -= 26
-#             encryptStr.append(i)
-#         elif i > 122:
-#             i -= 26
-#             encryptStr.append(i)
-#         else:
-#             encryptStr.append(i)
-#
-#     encrypted_message = ""  # holds the final encrypted message
-#     for r in encryptStr:  # converts encrypted ascii code into letters
-#         char = chr(r)
-#         encrypted_message += char
-#     print("Encrypted message: {}".format(encrypted_message))
-#
-#
-# def decypt(self):
-#     encrypted_message = []  # holds the ascii version of the letters in the message
-#     for x in self._message:  # converts letters to ascii
-#         asc = ord(x)
-#         encrypted_message.append(asc)
-#
-#     decryptStr = []  # holds the final decrypted message
-#     for i in encrypted_message:  # shifts ascii code over by 3 characters
-#         i -= 3
-#         if 65 > i:
-#             i += 26
-#             decryptStr.append(i)
-#         elif 97 > i:
-#             i += 26
-#             decryptStr.append(i)
-#         else:
-#             decryptStr.append(i)
-#
-#     decrypted_message = ""
-#     for r in decryptStr:  # converts decrypted ascii code into letters
-#         char = chr(r)
-#         decrypted_message += char
-#     print("Decrypted message: {}".format(decrypted_message))
